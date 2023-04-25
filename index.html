@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login Page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--To link the CSS file to this webpage-->
+        <link href="web_design.css" rel="stylesheet" type="text/css"/>
+        <style>
+            body{
+                background-image: url("picture/Background_img/texture.jpg");
+                background-size: cover;
+                background-position: 0 99%;
+            }
+       </style>            
+    </head>
+    <body>
+        <h1 class="Company_Name">Instagraham Incorporated</h1>
+        <div class="loginform">
+            <form name="loginForm" action="login.php" method="POST">
+                <h2 class="lg_title">Log in</h2>
+                <div class="inner_form">
+                    <p>User Name: <input type="text" name="userName" value="" size="20" /></p>
+                    <p>&nbsp; &nbsp;Password: <input type="password" name="pw" value="" size="20" /></p>
+                </div>
+                <input type="submit" value="Login" name="login" />
+            </form>
+            <br/><a class="create-acc-link" href="create-creator.php">Create new account?</a>
+        </div>
+    </body>
+</html>
